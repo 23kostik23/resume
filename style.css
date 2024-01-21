@@ -1,0 +1,54 @@
+*{
+    margin: 2px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montseratt', sans-serif;
+}
+body{
+    background-color: #c9d6ff;
+    background: linear-gradient(to right, #e2e2e2, #c9d6ff);
+    display: flex;
+
+    justify-content: center;
+    flex-direction: column;
+}
+.imgContainer{
+    display: flex;
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+    margin: auto;
+    width: 92%;
+}
+
+.imgContainer img {
+    display: inline-block;
+    height: 400px;
+    width: auto;
+    border-radius: 30px;
+    margin: auto; /* Добавьте отступ между изображениями (если нужно) */
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.parentContainer {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.infoContainer, .projContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+    width: 45%;
+    height: 224px;
+    margin: 10px;
+}
+.infoContainer h2, .projContainer h2 {
+    margin-top: 0; /* Убрать верхний отступ у h2 */
+    text-align: start; /* Выравнивание текста по центру */
+}
