@@ -19,6 +19,7 @@ body{
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
     margin: auto;
     width: 92%;
+    max-width: 1920px;
 }
 
 .imgContainer img {
@@ -47,8 +48,9 @@ body{
     width: 45%;
     height: 224px;
     margin: 10px;
+    max-width: calc(1920*0,45);
 }
 .infoContainer h2, .projContainer h2 {
-    margin-top: 0; /* Убрать верхний отступ у h2 */
-    text-align: start; /* Выравнивание текста по центру */
+    margin-top: 0;
+    text-align: start;
 }
