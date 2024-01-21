@@ -18,8 +18,8 @@ body{
     border-radius: 30px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
     margin: auto;
-    width: 92%;
-    max-width: 1920px;
+    min-width: 92%;
+    max-width: calc(1920*0,92);
 }
 
 .imgContainer img {
@@ -27,7 +27,7 @@ body{
     height: 400px;
     width: auto;
     border-radius: 30px;
-    margin: auto; /* Добавьте отступ между изображениями (если нужно) */
+    margin: auto;
     margin-top: 10px;
     margin-bottom: 10px;
 }
