@@ -13,7 +13,6 @@ body{
     flex-direction: column;
     min-width: 100%;
     max-width: 1920px;
-    background-size: auto;
 }
 .imgContainer{
     display: flex;
