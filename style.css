@@ -58,3 +58,10 @@ body{
     margin-top: 0;
     text-align: start;
 }
+p {
+    font-size: 15px;
+    margin-left: 10px;
+    padding: auto;
+    align-content: center;
+    justify-content: center;
+}
